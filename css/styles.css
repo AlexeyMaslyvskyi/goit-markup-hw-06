@@ -738,7 +738,7 @@ a.logo-footer {
 .icon-send {
   margin-left: 10px;
   fill: var(--white);
-/*BACKDROP*/
+}
 .backdrop {
   position: fixed;
   top: 0;
@@ -747,7 +747,6 @@ a.logo-footer {
   height: 100%;
   background-color: rgba(47, 48, 58, 0.4);
   opacity: 1;
-
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
