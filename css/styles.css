@@ -579,8 +579,8 @@ footer div[addresf] {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin-left: 70px;
-  margin-top: 12px;
+  padding-left: 70px;
+  padding-top: 12px;
 }
 .social-cont h2 {
   margin-bottom: 20px;
@@ -678,6 +678,67 @@ a.logo-footer {
 .phone:focus {
   color: var(--focus);
 }*/
+.form-footer {
+  display: flex;
+}
+.sign-distribution {
+  padding-top: 12px;
+  padding-left: 93px;
+}
+.distribution {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: var(--white);
+}
+
+.form-footer input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--headfoot);
+}
+
+.form-footer input::placeholder {
+  font-weight: 4000;
+  font-size: 16px;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: var(--headfoot);
+  padding-left: 15px;
+}
+.button-send {
+  display: flex;
+
+  margin-left: 12px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.9;
+
+  letter-spacing: 0.06em;
+  color: var(--white);
+  background-color: var(--accent);
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.icon-send {
+  margin-left: 10px;
+  fill: var(--white);
+/*BACKDROP*/
 .backdrop {
   position: fixed;
   top: 0;
