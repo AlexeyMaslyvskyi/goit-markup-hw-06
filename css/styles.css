@@ -895,6 +895,7 @@ a.logo-footer {
 }
 
 .checkbox-label {
+  cursor: pointer;
   position: relative;
   padding-left: 28px;
   margin-bottom: 30px;
