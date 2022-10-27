@@ -864,6 +864,7 @@ a.logo-footer {
   height: 50px;
 
   display: flex;
+  cursor: pointer;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
