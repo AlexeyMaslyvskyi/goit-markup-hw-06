@@ -833,10 +833,13 @@ a.logo-footer {
 .form-input:focus {
   border-color: var(--accent);
 }
+.wraps {
+  position: relative;
+}
 
 .form-icon {
   position: absolute;
-  top: 38px;
+  top: 50%;
 
   left: 12px;
   transform: translateY(-50%);
